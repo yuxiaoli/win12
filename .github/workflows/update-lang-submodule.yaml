@@ -19,6 +19,7 @@ jobs:
       - name: Checkout repository with submodules
         uses: actions/checkout@v4
         with:
+          ref: develop
           submodules: true
 
       - name: Update lang submodule
@@ -32,5 +33,5 @@ jobs:
           git add lang
           git diff --cached --quiet && exit 0
           git commit -m "chore: update lang submodule"
-          git pull --rebase origin main
-          git push
+          git pull --rebase origin develop
+          git push origin HEAD:develop

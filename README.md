@@ -34,6 +34,12 @@
   </a>
 </details>
 
+## Sean’s desktop fork
+
+Personalized by [Sean / Yuxiao Li](https://github.com/yuxiaoli). [Open this desktop](https://yuxiaoli.github.io/win12/boot.html) · [Vector Index](https://vectorindex.cloud).
+
+The original Win12 Online project, authors, licenses and credits are retained below. Custom changes live on `develop`; `main` is a read-only upstream cache managed by the owner.
+
 ## 目录
 
 - [Win12 Online](#win12-online)
@@ -76,7 +82,7 @@ Win12 Online（以下简称“Win12OL”或“本项目”）是一个**非商�
 > [!NOTE]
 > 目前移动端适配不太完善，开桌面版网站凑合着用吧 `>v-)o`
 
-点击[此处](https://win12-online.github.io/win12/boot.html)即可体验。
+点击[此处](https://yuxiaoli.github.io/win12/boot.html)即可体验。
 
 ## 桌面版
 

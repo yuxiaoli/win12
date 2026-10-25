@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Win12浏览器</title> <!-- 优化：修改页面标题为描述性标题 -->
+    <title>Sean · Vector Index</title>
     <style>
         * {
             margin: 0px;
@@ -60,7 +60,9 @@
         body>div.logo {
             width: 100%;
             height: 60px;
-            background-image: url('./img/Bing.svg');
+            font: 600 32px system-ui, sans-serif;
+            color: #5f6368;
+            text-align: center;
             background-size: contain;
             background-repeat: no-repeat;
             background-position: 50% 50%;
@@ -71,13 +73,18 @@
 </head>
 
 <body>
-    <div class="logo"></div>
+    <div class="logo">Sean / Vector Index</div>
     <div class="input">
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#5F6368">
             <path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z" />
         </svg>
         <input type="text" onkeyup="handleKeyPress(event)" placeholder="在必应中搜索，或输入一个网址">
     </div>
+    <nav aria-label="Sean’s links" style="display:flex;gap:20px;flex-wrap:wrap;justify-content:center;margin:24px 20px;font:16px system-ui,sans-serif;">
+        <a href="https://vectorindex.cloud" style="color:#3973b9;">Vector Index</a>
+        <a href="https://github.com/yuxiaoli" target="_blank" rel="noopener noreferrer" style="color:#3973b9;">GitHub projects</a>
+        <a href="https://yuxiaoli.github.io/boot-loader/" target="_blank" rel="noopener noreferrer" style="color:#3973b9;">Web desktops</a>
+    </nav>
     <script src="./scripts/edge-address.js"></script>
     <script>
         function handleKeyPress(event) {

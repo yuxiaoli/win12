@@ -1,3 +1,4 @@
+// Personal desktop defaults: Sean / Vector Index, 2026-10-25.
 let dymanic = [
   'api.github.com',
   'tjy-gitnub.github.io/win12-theme',
