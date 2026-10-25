@@ -26,8 +26,13 @@ Do not edit Boot Loader, Win11 or win12 boot.html / --embed (separate owners). D
 - [x] Keep locale-update workflow checkout/pull/push on develop.
 - [x] Pass JavaScript syntax checks, diff checks and all 7 Node test files (including document/save/shortcut preservation).
 - [x] Local browser: Sean login, Notepad intro, Edge embedded Vector Index portfolio.
-- [ ] Commit and safely push develop after concurrency recheck.
-- [ ] Verify exact-commit Pages deployment and final public browser login/profile/Notepad/Edge flows.
-- [ ] Report final SHA, deployment evidence and remaining gaps.
+- [x] Commit and safely push develop after concurrency recheck.
+- [x] Verify exact-commit Pages deployment and final public browser login/profile/Notepad/Edge flows.
+- [x] Record delivery evidence and validation limits below.
 
 Full tools/regress/run.mjs is blocked by its existing hardcoded /Users/moraxcheng/node_modules Puppeteer import, absent on this Windows host. Targeted browser verification and portable existing tests are used; no claim of full snapshot-harness coverage.
+## Delivery evidence
+
+Application commit: 27d6ddedc1b85d503f83a12121258c5f2822d93f, pushed to develop. GitHub Pages run https://github.com/yuxiaoli/win12/actions/runs/40202389138 completed successfully for that exact SHA. Public Chrome verification at https://yuxiaoli.github.io/win12/boot.html reached the Sean login and desktop. Verified Start public links, first-launch Notepad introduction, Edge first homepage embedding the actual Vector Index portfolio, personal new-tab links and explicit HTTPS navigation. About showed Sean / Yuxiao Li together with the retained original Starry Source attribution, EPL notice and contributor list. Main was unchanged at 795ad3ac6c156bc467d4586203ad9d95d90cf464; default remained develop. No boot.html changes.
+
+Portable Node tests: 7 files passed. Snapshot-harness portability gap remains as described above; no full snapshot comparison claimed. No credentials, paid resources, private CV or contact facts were added. This status-record commit changes documentation only; application assets remain those browser-verified above.
