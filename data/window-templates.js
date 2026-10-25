@@ -399,8 +399,8 @@ const windowMarkup = `	<div class="window defender" data-min-width="800" style="
 				<a class="a user" onclick="$('#win-setting>.menu>list>a.user')[0].click();">
 					<svg viewBox="0,0,257,344" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" overflow="hidden"><defs><clipPath id="user-clip1"><rect x="382" y="195" width="257" height="344" /></clipPath><linearGradient x1="351.462" y1="233.56" x2="669.496" y2="500.422" gradientUnits="userSpaceOnUse" spreadMethod="reflect" id="user-fill3"><stop offset="0" stop-color="#A964C8" /><stop offset="0.35" stop-color="#A964C8" /><stop offset="0.87" stop-color="#2D8AD5" /><stop offset="1" stop-color="#2D8AD5" /></linearGradient><linearGradient x1="351.462" y1="233.56" x2="669.496" y2="500.422" gradientUnits="userSpaceOnUse" spreadMethod="reflect" id="user-fill4"><stop offset="0" stop-color="#A964C8" /><stop offset="0.35" stop-color="#A964C8" /><stop offset="0.87" stop-color="#2D8AD5" /><stop offset="1" stop-color="#2D8AD5" /></linearGradient></defs><g clip-path="url(#user-clip1)" transform="translate(-382 -195)"><path d="M637.755 433.872C642.215 515.221 579.577 537.983 508.011 537.983 436.444 537.983 376.676 507.833 383.513 437.11 383.109 425.234 389.59 414.133 398.634 409.891 413.82 402.768 444.753 402.936 507.484 402.997 570.214 403.058 609.164 402.279 621.521 407.947 633.878 413.614 638.011 424.609 637.755 433.872Z" fill="url(#user-fill3)" fill-rule="evenodd" /><path d="M422 285C422 235.847 461.623 196 510.5 196 559.377 196 599 235.847 599 285 599 334.153 559.377 374 510.5 374 461.623 374 422 334.153 422 285Z" fill="url(#user-fill4)" fill-rule="evenodd" /></g></svg>
 					<div>
-						<p data-i18n="setting.usrname">Administrator</p>
-						<p>starry-source@windows12.com</p>
+						<p>Sean</p>
+						<p>@yuxiaoli</p>
 					</div>
 				</a>
 				<input type="text" class="input" placeholder="查找设置" style="padding-left: 30px;" data-i18n-attr="placeholder" data-i18n-key="setting.sch">
@@ -666,8 +666,8 @@ const windowMarkup = `	<div class="window defender" data-min-width="800" style="
 						<!-- <div style="display:flex"> -->
 							<svg viewBox="0,0,257,344" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="width: 100px;height: 100px;background-color: var(--hover-b);width: 60px;width: 60px;height: 60px;border-radius: 50%;padding: 15px;margin-right: 15px;margin-bottom: 15px;" overflow="hidden"><defs><clipPath id="user-clip1"><rect x="382" y="195" width="257" height="344" /></clipPath><linearGradient x1="351.462" y1="233.56" x2="669.496" y2="500.422" gradientUnits="userSpaceOnUse" spreadMethod="reflect" id="user-fill3"><stop offset="0" stop-color="#A964C8" /><stop offset="0.35" stop-color="#A964C8" /><stop offset="0.87" stop-color="#2D8AD5" /><stop offset="1" stop-color="#2D8AD5" /></linearGradient><linearGradient x1="351.462" y1="233.56" x2="669.496" y2="500.422" gradientUnits="userSpaceOnUse" spreadMethod="reflect" id="user-fill4"><stop offset="0" stop-color="#A964C8" /><stop offset="0.35" stop-color="#A964C8" /><stop offset="0.87" stop-color="#2D8AD5" /><stop offset="1" stop-color="#2D8AD5" /></linearGradient></defs><g clip-path="url(#user-clip1)" transform="translate(-382 -195)"><path d="M637.755 433.872C642.215 515.221 579.577 537.983 508.011 537.983 436.444 537.983 376.676 507.833 383.513 437.11 383.109 425.234 389.59 414.133 398.634 409.891 413.82 402.768 444.753 402.936 507.484 402.997 570.214 403.058 609.164 402.279 621.521 407.947 633.878 413.614 638.011 424.609 637.755 433.872Z" fill="url(#user-fill3)" fill-rule="evenodd" /><path d="M422 285C422 235.847 461.623 196 510.5 196 559.377 196 599 235.847 599 285 599 334.153 559.377 374 510.5 374 461.623 374 422 334.153 422 285Z" fill="url(#user-fill4)" fill-rule="evenodd" /></g></svg>
 							<div style="margin-top: 8px;">
-								<p style="font-size: 19px;line-height: 1;">Administrator</p>
-								<p>starry-source@Windows12.com</p>
+								<p style="font-size: 19px;line-height: 1;">Sean</p>
+								<p>@yuxiaoli</p>
 							</div>
 						<!-- </div> -->
 					</div>
@@ -979,6 +979,9 @@ const windowMarkup = `	<div class="window defender" data-min-width="800" style="
 				</list>
 			</div>
 			<div class="cnt about about-web">
+				<h2 class="tit"><span></span>Sean / Yuxiao Li</h2>
+				<p style="margin-left: 20px;">Full-stack engineer and technology leader exploring AI applications, cloud services and developer tools.</p>
+				<p style="margin-left: 20px;"><a href="https://vectorindex.cloud" target="_blank" rel="noopener noreferrer" class="jump">Vector Index</a> · <a href="https://github.com/yuxiaoli" target="_blank" rel="noopener noreferrer" class="jump">GitHub</a> · <a href="https://github.com/yuxiaoli/win12" target="_blank" rel="noopener noreferrer" class="jump">This fork</a></p>
 				<h1 class="tit" data-i18n="about.intro.name"><span></span>Windows 12 网页版</h1>
 				<div style="margin-left: 20px;">
 					<h2 class="tit" data-i18n="about.intro.intro"><span></span>简介</h2>
@@ -1448,7 +1451,8 @@ const windowMarkup = `	<div class="window defender" data-min-width="800" style="
 		    </div>
 			<div id="save-bar" style="margin:10px;margin-top: 3px;white-space: nowrap;overflow-x: scroll;">
 				<!--收藏夹-->
-				<a onclick="apps.edge.goto('https://tjy-gitnub.github.io/')" win12_title="https://tjy-gitnub.github.io/" class="save-item"><i class="bi bi-file-earmark"></i>星源</a>
+				<a onclick="apps.edge.goto('https://vectorindex.cloud')" win12_title="https://vectorindex.cloud" class="save-item"><i class="bi bi-file-earmark"></i>Vector Index</a>
+				<a href="https://github.com/yuxiaoli" target="_blank" rel="noopener noreferrer" class="save-item"><i class="bi bi-github"></i>Sean on GitHub</a>
 				<a onclick="apps.edge.goto('https://www.bing.com')" win12_title="https://www.bing.com" class="save-item"><i class="bi bi-file-earmark"></i>Bing</a>
 				<style>
 					#save-bar{
@@ -1809,7 +1813,7 @@ const windowMarkup = `	<div class="window defender" data-min-width="800" style="
 			<p style="margin-top: 20px" data-i18n="winver.p3">Windows12 专业版操作系统及其用户界面受美国和其他国家/地区的商标法和其他待颁布或已颁布的知识产权法保护。</p>
 			<div class="bottom">
 				<p data-i18n="winver.p4">根据 Microsoft 软件许可条款，许可如下用户使用本产品</p>
-				<p style="margin:20px 0 0 90px">Administrator</p>
+				<p style="margin:20px 0 0 90px">Sean</p>
 			</div>
 			<p ondblclick="$(this).hide()" class="a mesg" data-i18n="winver.p5">上面都是胡扯，切勿当真 (双击隐藏此消息)</p>
 			<div class="buttons">
