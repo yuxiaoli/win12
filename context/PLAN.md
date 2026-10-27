@@ -36,3 +36,23 @@ Full tools/regress/run.mjs is blocked by its existing hardcoded /Users/moraxchen
 Application commit: 27d6ddedc1b85d503f83a12121258c5f2822d93f, pushed to develop. GitHub Pages run https://github.com/yuxiaoli/win12/actions/runs/40202389138 completed successfully for that exact SHA. Public Chrome verification at https://yuxiaoli.github.io/win12/boot.html reached the Sean login and desktop. Verified Start public links, first-launch Notepad introduction, Edge first homepage embedding the actual Vector Index portfolio, personal new-tab links and explicit HTTPS navigation. About showed Sean / Yuxiao Li together with the retained original Starry Source attribution, EPL notice and contributor list. Main was unchanged at 795ad3ac6c156bc467d4586203ad9d95d90cf464; default remained develop. No boot.html changes.
 
 Portable Node tests: 7 files passed. Snapshot-harness portability gap remains as described above; no full snapshot comparison claimed. No credentials, paid resources, private CV or contact facts were added. This status-record commit changes documentation only; application assets remain those browser-verified above.
+
+## 2026-10-27 canonical welcome rollout
+
+Scope: replace only the first blank-launch Notepad seed in module/apps.js with the user-approved welcome from DOT_NOTES projects/repos/boot-loader/welcome.md at bb681b8fd0085af3cc15ef02e6da1b955404e5ce. Exact UTF-8 content: 525 bytes, Git blob fe7e9edba1d4cbbe07d44e43dea42bd5e3f234b7, SHA256 8CFADE6F56F8046D1A2DEAE329E43D3F024095917D18DC11E436B095D9C9FB36, no heading or trailing newline. Keep every word, punctuation and paragraph unchanged.
+
+Preserve _welcomeShown, supplied pending text including empty files, mounted saves, stored data, licenses and upstream credits. No boot.html/--embed, Boot Loader, other repositories, main/master writes, force push, credentials changes, new infrastructure or UI/browser control. Use Node/DOM/HTTP checks and label rendered/device verification unavailable in this rollout.
+
+Starting develop e7b93960ec470e39903bef0807668cf8c07e7ae7 and read-only main 795ad3ac6c156bc467d4586203ad9d95d90cf464 were rechecked remotely with a clean checkout. Feature branch is based on that current remote develop. Recheck develop before push/merge because the existing locale bot can update it. Default and deployed revision will be reverified.
+
+- [x] Read current DOT protocol/rules, rollout inventory and repository instructions; record scope before implementation.
+- [x] Add exact-copy regression assertion and prove the old default fails.
+- [x] Replace seed only; run all existing portable tests and substantive self review.
+- [ ] Push feature branch and create draft PR to develop; obtain root independent diff review before ready/ordinary merge.
+- [ ] Verify merged develop and exact-commit existing Pages deployment via Node/HTTP; report PR, refs and limits.
+
+Coverage gap: Boot Loader currently targets https://win12-online.github.io/win12/boot.html. Publishing this controlled fork at https://yuxiaoli.github.io/win12/boot.html does not update that upstream launcher destination; routing remains outside this task.
+
+2026-10-27 delivery-scope clarification: a service-worker revision comment bump is authorized so the existing worker update/activation lifecycle can refresh the changed default asset. No cache logic, policy, security settings, upstream update endpoint, forced reload or storage behavior may change. Already-open sessions require normal worker activation and a page revisit; do not discard notes or force activation.
+
+Pre-PR validation: exact-copy SHA256 assertion failed on the previous welcome (8a79c5b792831465bfa5fb80f94f3ce8a7e06fadc0698120de520db477f37424), then passed after literal replacement. All 7 portable Node test files passed, including 15 cache lifecycle/protection checks and supplied-content/empty-file/mounted-save preservation. JavaScript syntax and git diff whitespace checks passed. Independent local source comparison confirms only the welcome literal changed in module/apps.js and only the revision header changed in sw.js; existing plan history is preserved. Six paragraphs, 525 UTF-8 bytes, no trailing newline, exact approved hash. No UI or browser control used.
