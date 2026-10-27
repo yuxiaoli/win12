@@ -1946,7 +1946,7 @@ let apps = {
                     apps.notepad._pendingContent = null;
                 } else {
                     $('#win-notepad>.text-box')[0].innerText = apps.notepad._welcomeShown ? '' :
-                        "Welcome. Curiosity has a desktop now.\n\nI’m Sean. This is a browser pretending to be somewhere else, built on the work of open-source communities.\n\nOpen a window. Follow a hunch. Try the command you think should work. Some things will feel familiar; others are still being figured out.\n\nThe interesting part isn’t making pixels look like an operating system. It’s seeing how much of the experience lives in the details.\n\nFound a rough edge? That’s a good place to contribute.\n\nKeep exploring: https://vectorindex.cloud";
+                        'Welcome. Curiosity has a desktop now.\n\nI’m Sean. This is a browser pretending to be somewhere else, built on the work of open-source communities.\n\nOpen a window. Follow a hunch. Try the command you think should work. Some things will feel familiar; others are still being figured out.\n\nThe interesting part isn’t making pixels look like an operating system. It’s seeing how much of the experience lives in the details.\n\nFound a rough edge? That’s a good place to contribute.\n\nKeep exploring: https://vectorindex.cloud';
                     apps.notepad._welcomeShown = true;
                     apps.notepad._mountedFileHandle = null;
                 }
